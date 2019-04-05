@@ -1,7 +1,3 @@
-console.log('Loading scripts');
-
-
-
 const form = document.querySelector('form');
 const search = document.querySelector('input');
 const place = document.querySelector('#place');
