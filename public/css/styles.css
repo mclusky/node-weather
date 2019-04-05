@@ -3,7 +3,7 @@ html,
 main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3a3b3b;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .img-wrap {
@@ -11,5 +11,7 @@ main {
 }
 
 footer {
-    color: #333c3c
+    color: #333c3c;
+    border-top: 2px solid #b0e9ff;
+    padding: 25px;
 }
