@@ -1,0 +1,15 @@
+body,
+html,
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a3b3b;
+    min-height: 100vh;
+}
+
+.img-wrap {
+    width: 250px;
+}
+
+footer {
+    color: #333c3c
+}
