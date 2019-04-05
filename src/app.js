@@ -8,7 +8,7 @@ const hbs = require('hbs');
 const app = express();
 
 // Define Paths for express config 
-const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
 const partialsPath = path.join(__dirname, '../templates/partials');
 
