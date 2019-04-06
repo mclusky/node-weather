@@ -10,7 +10,6 @@ form.addEventListener('submit', function (e) {
     fetch(`/weather?address=${search.value}`)
         .then(res => res.json()
             .then(data => {
-                console.log(data);
                 if (data.error) {
                     place.textContent = data.error;
                 } else {

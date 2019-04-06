@@ -16,7 +16,7 @@ const forecast = (lat, long, callback) => {
         } else if (error) {
             callback('Unable to find location. Try another search', undefined);
         } else {
-            callback(undefined, daily.data[0].summary + ` It's currently ${currently.temperature} degrees`);
+            callback(undefined, daily.data[0].summary + ` It's currently ${currently.temperature} degrees.\nMaximum temperatures will reach ${daily.data[0].temperatureMax} degrees.`);
         }
     });
 };
